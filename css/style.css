@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv  {
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+    margin: 0 auto;
+    font-size: 0;
+   
+}
+
+
+.mainDiv > div {
+    display: inline-block;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.white {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+
+}
+
+.red {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid black;
+
+
+
+}
+
+.blue {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: blue;
+    border-radius: 50%;
+    border: 5px solid black;
+
+}
